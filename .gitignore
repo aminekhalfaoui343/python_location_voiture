@@ -1,0 +1,46 @@
+# Project-wide .gitignore
+
+# Backend
+backend/venv/
+backend/__pycache__/
+backend/*.db
+backend/*.pyc
+backend/.env
+backend/.DS_Store
+backend/rental_system.db
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Docker
+.dockerignore
+docker-compose.override.yml
