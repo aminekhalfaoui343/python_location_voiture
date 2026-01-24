@@ -5,7 +5,6 @@ import enum
 
 from app.database import Base
 
-
 class CarStatus(str, enum.Enum):
     """Car status enumeration"""
     AVAILABLE = "available"

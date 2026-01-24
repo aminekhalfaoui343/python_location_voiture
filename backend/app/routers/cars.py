@@ -39,7 +39,7 @@ def update_car(car_id: int, car: CarUpdate, db: Session = Depends(get_db)):
     db_car = CarService.get_car(db, car_id)
     if not db_car:
         raise HTTPException(status_code=404, detail="Car not found")
-    
+
     return CarService.update_car(db, car_id, car)
 
 

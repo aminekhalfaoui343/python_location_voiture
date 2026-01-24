@@ -14,7 +14,7 @@ def create_customer(customer: CustomerCreate, db: Session = Depends(get_db)):
     existing_customer = CustomerService.get_customer_by_id_loc(db, customer.id_loc)
     if existing_customer:
         raise HTTPException(status_code=400, detail="Customer with this ID already exists")
-    
+
     return CustomerService.create_customer(db, customer)
 
 
@@ -39,7 +39,7 @@ def update_customer(customer_id: int, customer: CustomerUpdate, db: Session = De
     db_customer = CustomerService.get_customer(db, customer_id)
     if not db_customer:
         raise HTTPException(status_code=404, detail="Customer not found")
-    
+
     return CustomerService.update_customer(db, customer_id, customer)
 
 
