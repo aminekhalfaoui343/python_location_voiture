@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" height="100" style="margin-right: 15px;"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" height="100" style="margin-right: 15px;"/>
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" height="100"/>
+</p>
+
 # Car Rental Management System
 
 A comprehensive full-stack web application for managing car rentals, customers, and vehicles. Built with **FastAPI** (Python backend) and **React + Vite** (modern frontend), featuring **Machine Learning** price prediction and image management capabilities.
